@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans", sans-serif;
+}
+
+a {
+	font-family: "Noto Sans", sans-serif;
+	color: #2865d1;
+}
+
+hr {
+	margin-bottom: 1rem;
+	color: #cf3b31;
+}
+
+h1 {
+	margin: 2rem 0 1rem 0;
+	color: #cf3b31;
+	text-transform: uppercase;
+}
+
+.main-container {
+	width: 100%;
+	display: flex;
+}
+
+.navigation {
+	display: none;
+	position: fixed;
+	background: #e7e2e2;
+	height: 100%;
+	width: 30%;
+	padding: 2rem 0 0 0;
+}
+
+.navigation ul {
+	margin: 4rem 0 0 0;
+	list-style-type: none;
+}
+
+.navigation ul li {
+	text-transform: uppercase;
+	margin: 2rem 1rem 0 1.5rem;
+	color: #2865d1;
+	font-size: large;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	transition: ease 0.5s;
+}
+.navigation ul li a:hover {
+	color: #cf3b31;
+	cursor: pointer;
+	font-size: larger;
+}
+
+.container {
+	width: 100%;
+	font-size: 13px;
+	padding: 1rem 1rem;
+	color: #222e39;
+	line-height: 1.5rem;
+}
+
+.header {
+	text-align: center;
+}
+
+.duration {
+	color: #2865d1;
+	float: right;
+	margin-right: 2rem;
+}
+
+ul {
+	margin-top: 0.6rem;
+}
+
+ul div {
+	padding-left: 2rem;
+}
+
+.apply,
+.work,
+.skills,
+.referal {
+	margin: 0.6rem 0;
+}
+
+.number {
+	color: #666666;
+	padding-right: 1rem;
+}
+
+.organisers-img {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.organisers-img img {
+	margin: 1rem;
+}
+
+@media screen and (max-width: 899px) and (min-width: 600px) {
+	.main-container {
+		width: 100%;
+		display: flex;
+	}
+
+	.navigation {
+		display: block;
+	}
+
+	.container {
+		margin-left: 30%;
+		padding: 4rem;
+		font-size: 14px;
+		line-height: 1.5rem;
+	}
+
+	hr {
+		margin-bottom: 2rem;
+	}
+
+	h1 {
+		margin: 3rem 0 2rem 0;
+	}
+
+	ul div {
+		padding-left: 4rem;
+	}
+
+	.apply,
+	.work,
+	.skills,
+	.referal {
+		margin: 1rem 0;
+	}
+}
+
+@media screen and (max-width: 1640px) and (min-width: 900px) {
+	.main-container {
+		width: 100%;
+		display: flex;
+	}
+
+	.navigation {
+		display: block;
+	}
+
+	.container {
+		margin-left: 30%;
+		width: 70%;
+		padding: 6rem 10rem;
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+
+	hr {
+		margin-bottom: 2rem;
+	}
+
+	h1 {
+		margin: 3rem 0 2rem 0;
+	}
+
+	ul div {
+		padding-left: 4rem;
+	}
+
+	.apply,
+	.work,
+	.skills,
+	.referal {
+		margin: 1rem 0;
+	}
+}
