@@ -10,6 +10,10 @@
 a {
 	font-family: "Noto Sans", sans-serif;
 	color: #2865d1;
+	transition: ease 0.4s;
+}
+a:hover {
+	font-size: 1rem;
 }
 
 hr {
@@ -44,7 +48,7 @@ h1 {
 
 .navigation ul li {
 	text-transform: uppercase;
-	margin: 2rem 1rem 0 1.5rem;
+	margin: 1.5rem 1rem 0 1.5rem;
 	color: #2865d1;
 	font-size: large;
 	font-weight: 600;
@@ -63,7 +67,7 @@ h1 {
 .container {
 	width: 100%;
 	font-size: 13px;
-	padding: 1rem 1rem;
+	padding: 1.5rem 1rem;
 	color: #222e39;
 	line-height: 1.5rem;
 }
@@ -86,7 +90,7 @@ ul div {
 	padding-left: 2rem;
 }
 
-.apply,
+.schools,
 .work,
 .skills,
 .referal {
@@ -119,9 +123,9 @@ ul div {
 
 	.container {
 		margin-left: 30%;
-		padding: 4rem;
+		padding: 3rem;
 		font-size: 14px;
-		line-height: 1.5rem;
+		line-height: 1.8rem;
 	}
 
 	hr {
@@ -136,7 +140,7 @@ ul div {
 		padding-left: 4rem;
 	}
 
-	.apply,
+	.schools,
 	.work,
 	.skills,
 	.referal {
@@ -157,9 +161,9 @@ ul div {
 	.container {
 		margin-left: 30%;
 		width: 70%;
-		padding: 6rem 10rem;
+		padding: 4rem 6rem;
 		font-size: 16px;
-		line-height: 1.5rem;
+		line-height: 1.8rem;
 	}
 
 	hr {
@@ -174,7 +178,7 @@ ul div {
 		padding-left: 4rem;
 	}
 
-	.apply,
+	.schools,
 	.work,
 	.skills,
 	.referal {
